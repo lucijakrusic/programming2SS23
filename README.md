@@ -33,7 +33,7 @@ or, if you have installed jupyterlab:
 jupyter-lab
 ```
 
-This will bring up your browser and will show you the contents of the `programming1WS22` directory.
+This will bring up your browser and will show you the contents of the `programming2SS23` directory.
 
 
 
