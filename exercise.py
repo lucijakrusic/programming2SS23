@@ -1,7 +1,7 @@
 """
 Let's make a citation system that will allow us to create a bibliography of sorts.
 The first thing we want to do is to define a Publication class
-the class shoula have an autor, title and publisher.
+the class should have an author, title and publisher.
 
 We should also be mindful that noone touches our properties are protected by convention.
 We should also write a get_citation() method that will return the author, title an publisher string nicely formatted.
@@ -9,6 +9,11 @@ We should also write a get_citation() method that will return the author, title 
 
 
 class Publication:
+   
+   def __init__(self, author, title, publisher):
+      self._author = author
+      self._title = title
+      self._publisher = publisher
 
    def __eq__(self, __o) -> bool:
        """indicates that the method returns a bool value"""
