@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)chrome-extension://gpdjojdkbbmdfjfahjcgigfpmkopogic/html/save.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title></title>
+    
+  <style type="text/css"> * {
+  box-sizing: border-box;
+}
+ body .save_bg .save_me .save_boardPickerOpener .save_boardPickerOpenerContainer .save_boardPickerOpenerLabel {
+  display: block;
+  font-size: 10px;
+  line-height: 12px;
+}
+ body .save_bg .save_me .save_boardPickerOpener .save_boardPickerOpenerContainer .save_boardPickerOpenerCurrent {
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: 12px;
+  padding-right: 20px;
+}
+ body .save_bg .save_me .save_boardPickerOpener .save_boardPickerOpenerContainer {
+  display: grid;
+  position: relative;
+  padding: 7px 0 7px 35px;
+  border-radius: 8px 0 0 8px;
+  flex: 1 1 auto;
+  background: url(data:image/svg+xml;base64,PHN2ZyBpZD0ic291cmNlIiB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iOCIgY3k9IjgiIHI9IjgiIGZpbGw9IndoaXRlIj48L2NpcmNsZT4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0wIDhDMCAxMS40MTUzIDIuMTQwNjcgMTQuMzMxMyA1LjE1MzMzIDE1LjQ3ODdDNS4wOCAxNC44NTQgNS4wMDIgMTMuODI0IDUuMTcgMTMuMTAxM0M1LjMxNDY3IDEyLjQ4IDYuMTA0IDkuMTQyNjcgNi4xMDQgOS4xNDI2N0M2LjEwNCA5LjE0MjY3IDUuODY2IDguNjY2IDUuODY2IDcuOTZDNS44NjYgNi44NTMzMyA2LjUwNzMzIDYuMDI2NjcgNy4zMDY2NyA2LjAyNjY3QzcuOTg2NjcgNi4wMjY2NyA4LjMxNDY3IDYuNTM2NjcgOC4zMTQ2NyA3LjE0OEM4LjMxNDY3IDcuODMxMzMgNy44NzkzMyA4Ljg1MjY3IDcuNjU0NjcgOS44QzcuNDY3MzMgMTAuNTkyNyA4LjA1MjY3IDExLjIzOTMgOC44MzQgMTEuMjM5M0MxMC4yNDkzIDExLjIzOTMgMTEuMzM4IDkuNzQ2NjcgMTEuMzM4IDcuNTkyQzExLjMzOCA1LjY4NDY3IDkuOTY3MzMgNC4zNTIgOC4wMTA2NyA0LjM1MkM1Ljc0NTMzIDQuMzUyIDQuNDE1MzMgNi4wNTEzMyA0LjQxNTMzIDcuODA4QzQuNDE1MzMgOC40OTI2NyA0LjY3ODY3IDkuMjI2IDUuMDA4IDkuNjI1MzNDNS4wNzI2NyA5LjcwNDY3IDUuMDgyNjcgOS43NzMzMyA1LjA2MzMzIDkuODU0QzUuMDAyNjcgMTAuMTA2IDQuODY4IDEwLjY0NjcgNC44NDIgMTAuNzU3M0M0LjgwNjY3IDEwLjkwMjcgNC43MjY2NyAxMC45MzQgNC41NzUzMyAxMC44NjMzQzMuNTgwNjcgMTAuNDAwNyAyLjk1OTMzIDguOTQ2NjcgMi45NTkzMyA3Ljc3ODY3QzIuOTU5MzMgNS4yNjYgNC43ODQgMi45NTkzMyA4LjIyMDY3IDIuOTU5MzNDMTAuOTgzMyAyLjk1OTMzIDEzLjEzMDcgNC45MjggMTMuMTMwNyA3LjU1ODY3QzEzLjEzMDcgMTAuMzAzMyAxMS40MDA3IDEyLjUxMjcgOC45OTggMTIuNTEyN0M4LjE5MDY3IDEyLjUxMjcgNy40MzI2NyAxMi4wOTI3IDcuMTcyNjcgMTEuNTk3M0M3LjE3MjY3IDExLjU5NzMgNi43NzMzMyAxMy4xMTg3IDYuNjc2NjcgMTMuNDkwN0M2LjQ4ODY3IDE0LjIxMzMgNS45NjczMyAxNS4xMjggNS42NDQgMTUuNjQ3M0M2LjM4OTMzIDE1Ljg3NjcgNy4xOCAxNiA4IDE2QzEyLjQxOCAxNiAxNiAxMi40MTggMTYgOEMxNiAzLjU4MiAxMi40MTggMCA4IDBDMy41ODIgMCAwIDMuNTgyIDAgOFoiIGZpbGw9IiNFNjAwMjMiPjwvcGF0aD4KPC9zdmc+) 10px 50% no-repeat, url(data:image/svg+xml;base64,PHN2ZyBpZD0ic291cmNlIiB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIHZpZXdCb3g9IjAgMCAxMCAxMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04LjM5OTk4IDIuNzcxMjVMNC45OTk5OCA2LjEyOTU4TDEuNjAwODIgMi43NzEyNUMxLjIzNDE1IDIuNDA5NTggMC42NDA4MTUgMi40MDk1OCAwLjI3NDU2NSAyLjc3MTI1Qy0wLjA5MTY4NDYgMy4xMzI1IC0wLjA5MTY4NDYgMy43MiAwLjI3NDU2NSA0LjA4MTY3TDQuOTk5OTggOC43NUw5LjcyNTQgNC4wODE2N0M5LjkwODMxIDMuOTAwNDIgOS45OTk5OCAzLjY2MjkyIDkuOTk5OTggMy40MjYyNUM5Ljk5OTk4IDMuMTg5MTcgOS45MDgzMSAyLjk1MjA4IDkuNzI1NCAyLjc3MTI1QzkuNTQyNDggMi41OTA0MiA5LjMwMjQ4IDIuNSA5LjA2MjQ4IDIuNUM4LjgyMjQ4IDIuNSA4LjU4MjkgMi41OTA0MiA4LjM5OTk4IDIuNzcxMjVaIiBmaWxsPSIjNzY3Njc2Ij48L3BhdGg+Cjwvc3ZnPg==) 95% 50% no-repeat;
+  background-color: #fff;
+  background-size: 16px 16px, 10px 10px;
+}
+ body .save_bg .save_me .save_boardPickerOpener .save_saveAction:hover {
+  background: #e60023 linear-gradient(rgba(0,0,0,0.06), rgba(0,0,0,0.06));
+}
+ body .save_bg .save_me .save_boardPickerOpener .save_saveAction.save_working {
+  background: linear-gradient(rgba(0,0,0,0.06), rgba(0,0,0,0.06)), url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIAoJeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiAKCXhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiAKCWhlaWdodD0iMzIiCgl3aWR0aD0iMzIiCgl2aWV3Qm94PSIwIDAgMTYgMTYiIAoJeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+Cgk8cGF0aCBmaWxsPSIjZmZmIiBkPSIKICAJTSA4LCAwCiAgICBBIC41LCAuNSwgMCwgMCwgMCwgOCwgMQogICAgQSA2LCA3LCAwLCAwLCAxLCAxNCwgOAogICAgQSA2LCA2LCAwLCAwLCAxLCA4LCAxNAogICAgQSA1LCA2LCAwLCAwLCAxLCAzLCA4CiAgICBBIDEsIDEsIDAsIDAsIDAsIDAsIDgKICAgIEEgOCwgOCwgMCwgMCwgMCwgOCwgMTYKICAgIEEgOCwgOCwgMCwgMCwgMCwgMTYsIDgKICAgIEEgOCwgOCwgMCwgMCwgMCwgOCwgMAogICAgWiIgPgogICAgPGFuaW1hdGVUcmFuc2Zvcm0KCQkJYXR0cmlidXRlVHlwZT0ieG1sIgoJCQlhdHRyaWJ1dGVOYW1lPSJ0cmFuc2Zvcm0iCgkJCXR5cGU9InJvdGF0ZSIKCQkJZnJvbT0iMCA4IDgiCgkJCXRvPSIzNjAgOCA4IgoJCQlkdXI9IjAuNnMiCgkJCXJlcGVhdENvdW50PSJpbmRlZmluaXRlIgoJCS8+Cgk8L3BhdGg+Cjwvc3ZnPgo=) 50% 50% no-repeat;
+  background-color: #e60023;
+  background-size: 18px 18px;
+  color: transparent;
+}
+ body .save_bg .save_me .save_boardPickerOpener .save_saveAction.save_done {
+  background: linear-gradient(rgba(0,0,0,0.06), rgba(0,0,0,0.06)), url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSIxN3B4IiBoZWlnaHQ9IjEzcHgiIHZpZXdCb3g9IjAgMCAxNyAxMyIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48Zz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMyw0TDcsOEwxNCwxQTEsMSAwIDAgMSAxNiwzTDcsMTJMMSw2QTEsMSAwIDAgMSAzLDRaIi8+PC9nPjwvc3ZnPg==) 50% 50% no-repeat;
+  background-color: #e60023;
+  background-size: 18px 18px;
+  color: transparent;
+}
+ body .save_bg .save_me .save_boardPickerOpener .save_saveAction {
+  cursor: pointer;
+  min-width: 58px;
+  padding: 0px 5px;
+  flex: 0 0 auto;
+  height: 40px;
+  border-radius: 0 8px 8px 0;
+  background: #e60023;
+  color: #fff;
+  font: 12px/40px "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+ body .save_bg .save_me .save_boardPickerOpener .save_afterSave:hover {
+  background: #EFEFEF linear-gradient(rgba(0,0,0,0.06),rgba(0,0,0,0.06));
+}
+ body .save_bg .save_me .save_boardPickerOpener .save_afterSave {
+  border-radius: 14px;
+  cursor: pointer;
+  min-width: 45px;
+  padding: 0px 5px;
+  height: 28px;
+  margin: 6px 6px 6px 0;
+  background: #EFEFEF url() 50% 50% no-repeat;
+  color: #000;
+  font: 12px/28px "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  flex: 0 0 auto;
+  display: none;
+}
+ body .save_bg .save_me .save_boardPickerOpener.save_feedback .save_boardPickerOpenerContainer {
+  background: #fff url(data:image/svg+xml;base64,PHN2ZyBpZD0ic291cmNlIiB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04IDBDMy41ODE3MiAwIDAgMy41ODE3MiAwIDhDMCAxMi40MTgzIDMuNTgxNzIgMTYgOCAxNkMxMi40MTgzIDE2IDE2IDEyLjQxODMgMTYgOEMxNiAzLjU4MTcyIDEyLjQxODMgMCA4IDBaTTQuMjQ0IDguOTE2TDcgMTEuNjY2N0wxMS43NTYgNi45MTk2N0MxMi4wODEzIDYuNTk1IDEyLjA4MTMgNi4wNjgzNCAxMS43NTYgNS43NDM2N0MxMS40MzA3IDUuNDE4NjcgMTAuOTAyNyA1LjQxODY3IDEwLjU3NzMgNS43NDM2N0w3IDkuMzE0TDUuNDIyNjcgNy43Mzk2N0M1LjA5NzMzIDcuNDE1IDQuNTY5MzMgNy40MTUgNC4yNDQgNy43Mzk2N0MzLjkxODY3IDguMDY0NjcgMy45MTg2NyA4LjU5MTM0IDQuMjQ0IDguOTE2WiIgZmlsbD0iI0U2MDAyMyI+PC9wYXRoPgo8L3N2Zz4=) 10px 50% no-repeat;
+}
+ body .save_bg .save_me .save_boardPickerOpener.save_feedback .save_boardPickerOpenerCurrent {
+  padding-right: 0px;
+}
+ body .save_bg .save_me .save_boardPickerOpener.save_feedback .save_saveAction {
+  display: none;
+}
+ body .save_bg .save_me .save_boardPickerOpener.save_feedback .save_afterSave {
+  display: block;
+}
+ body .save_bg .save_me .save_boardPickerOpener.save_feedback .save_mask:hover {
+  background: transparent;
+}
+ body .save_bg .save_me .save_boardPickerOpener.save_feedback .save_mask {
+  cursor: default;
+}
+ body .save_bg .save_me .save_boardPickerOpener.save_feedback {
+  background-color: #fff;
+  border-radius: 8px;
+}
+ body .save_bg .save_me .save_boardPickerOpener.save_fail .save_boardPickerOpenerContainer {
+  background: url(data:image/svg+xml;base64,PHN2ZyBpZD0ic291cmNlIiB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE1LjQxNDYgNi41ODI0NUw5LjQxNzU1IDAuNTg1MzY2QzguNjM3MDYgLTAuMTk1MTIyIDcuMzYyOTMgLTAuMTk1MTIyIDYuNTgyNDUgMC41ODUzNjZMMC41ODUzNjYgNi41ODI0NUMtMC4xOTUxMjIgNy4zNjI5NCAtMC4xOTUxMjIgOC42MzcwNiAwLjU4NTM2NiA5LjQxNzU1TDYuNTgyNDUgMTUuNDE0NkM3LjM2MjkzIDE2LjE5NTEgOC42MzcwNiAxNi4xOTUxIDkuNDE3NTUgMTUuNDE0NkwxNS40MTQ2IDkuNDE3NTVDMTYuMTk1MSA4LjYzNzA2IDE2LjE5NTEgNy4zNjk2MSAxNS40MTQ2IDYuNTgyNDVaTTcuOTk2NjYgMTIuNjcyOUM3LjQyMjk3IDEyLjY3MjkgNi45NTYwMSAxMi4yMDYgNi45NTYwMSAxMS42MzIzQzYuOTU2MDEgMTEuMDU4NiA3LjQyMjk3IDEwLjU5MTYgNy45OTY2NiAxMC41OTE2QzguNTcwMzUgMTAuNTkxNiA5LjAzNzMxIDExLjA1ODYgOS4wMzczMSAxMS42MzIzQzkuMDM3MzEgMTIuMjA2IDguNTcwMzUgMTIuNjcyOSA3Ljk5NjY2IDEyLjY3MjlaTTkuMDM3MzEgOC41MjM2NkM5LjAzNzMxIDkuMDk3MzUgOC41NzAzNSA5LjU2NDMxIDcuOTk2NjYgOS41NjQzMUM3LjQyMjk3IDkuNTY0MzEgNi45NTYwMSA5LjA5NzM1IDYuOTU2MDEgOC41MjM2NlY0LjM2NzczQzYuOTU2MDEgMy43OTQwNCA3LjQyMjk3IDMuMzI3MDggNy45OTY2NiAzLjMyNzA4QzguNTcwMzUgMy4zMjcwOCA5LjAzNzMxIDMuNzk0MDQgOS4wMzczMSA0LjM2NzczVjguNTIzNjZaIiBmaWxsPSIjRTYwMDIzIj48L3BhdGg+Cjwvc3ZnPg==) 10px 50% no-repeat;
+}
+ body .save_bg .save_me .save_boardPickerOpener.save_fail .save_afterSave:hover {
+  background: #e60023 linear-gradient(rgba(0,0,0,0.06),rgba(0,0,0,0.06));
+}
+ body .save_bg .save_me .save_boardPickerOpener.save_fail .save_afterSave {
+  background: #e60023 url() 50% 50% no-repeat;
+  color: #fff;
+}
+ body .save_bg .save_me .save_boardPickerOpener.save_fail {
+  background: #fff linear-gradient(rgba(255,0,0,0.08), rgba(255,0,0,0.08));
+}
+ body .save_bg .save_me .save_boardPickerOpener {
+  display: flex;
+  height: 40px;
+  width: 236px;
+  box-shadow: 0px 0px 10px -8px #000000;
+  position: absolute;
+}
+ body .save_bg .save_me .save_mask:hover {
+  background: linear-gradient(rgba(0,0,0,0.03), rgba(0,0,0,0.03));
+}
+ body .save_bg .save_me .save_mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: auto;
+  cursor: pointer;
+  border-radius: 8px 0px 0px 8px;
+}
+ body .save_bg .save_me {
+  position: absolute;
+}
+ body .save_bg .save_boardPicker .save_boardPickerHead .save_boardPickerHeadLine {
+  display: block;
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bolder;
+}
+ body .save_bg .save_boardPicker .save_boardPickerHead .save_boardPickerHide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 64px;
+  width: 64px;
+  cursor: pointer;
+  background-size: 25px 25px;
+  background: transparent url(data:image/svg+xml;base64,CjxzdmcgdmVyc2lvbj0iMS4xIiBoZWlnaHQ9IjE2IiB3aWR0aD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PHBhdGggZmlsbD0iIzAwMCIgZD0iTTIuNSA4LjAwMWw3Ljg0IDcuNDgxYTEuOTE0IDEuOTE0IDAgMCAwIDIuNjE4LjAwMyAxLjcwNSAxLjcwNSAwIDAgMC0uMDA0LTIuNDk3TDcuNzMgOC4wMDFsNS4yMjUtNC45ODZjLjcyNC0uNjkuNzI2LTEuODA5LjAwNC0yLjQ5N2ExLjkxIDEuOTEgMCAwIDAtMi42MTkuMDAzTDIuNSA4LjAwMXoiPjwvcGF0aD48L3N2Zz4K) 50% 50% no-repeat;
+}
+ body .save_bg .save_boardPicker .save_boardPickerHead .save_boardPickerHeadNav.save_back {
+  background-image: url(data:image/svg+xml;base64,CjxzdmcgdmVyc2lvbj0iMS4xIiBoZWlnaHQ9IjE2IiB3aWR0aD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PHBhdGggZmlsbD0iIzAwMCIgZD0iTTIuNSA4LjAwMWw3Ljg0IDcuNDgxYTEuOTE0IDEuOTE0IDAgMCAwIDIuNjE4LjAwMyAxLjcwNSAxLjcwNSAwIDAgMC0uMDA0LTIuNDk3TDcuNzMgOC4wMDFsNS4yMjUtNC45ODZjLjcyNC0uNjkuNzI2LTEuODA5LjAwNC0yLjQ5N2ExLjkxIDEuOTEgMCAwIDAtMi42MTkuMDAzTDIuNSA4LjAwMXoiPjwvcGF0aD48L3N2Zz4K);
+}
+ body .save_bg .save_boardPicker .save_boardPickerHead .save_boardPickerHeadNav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 64px;
+  width: 64px;
+  cursor: pointer;
+  background-size: 25px 25px;
+  background: transparent url(data:image/svg+xml;base64,CjxzdmcgdmVyc2lvbj0iMS4xIiBoZWlnaHQ9IjE2IiB3aWR0aD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CjxwYXRoIGZpbGw9IiMwMDAiIGQ9Ik04IDUuNTA2TDMuMDE1LjUyQTEuNzY1IDEuNzY1IDAgMSAwIC41MjEgMy4wMTVMNS41MDYgOCAuNTIgMTIuOTg1QTEuNzY1IDEuNzY1IDAgMCAwIDEuNzY2IDE2YTEuNzYgMS43NiAwIDAgMCAxLjI0OC0uNTJMOCAxMC40OTNsNC45ODUgNC45ODVhMS43NjcgMS43NjcgMCAwIDAgMi40OTguMDA0IDEuNzYyIDEuNzYyIDAgMCAwLS4wMDQtMi40OThMMTAuNDk0IDhsNC45ODUtNC45ODVhMS43NjcgMS43NjcgMCAwIDAgLjAwNC0yLjQ5OCAxLjc2MiAxLjc2MiAwIDAgMC0yLjQ5OC4wMDRMOCA1LjUwNnoiPjwvcGF0aD4KPC9zdmc+) 50% 50% no-repeat;
+}
+ body .save_bg .save_boardPicker .save_boardPickerHead .save_boardPickerInputBar .save_boardPickerInput {
+  position: absolute;
+  top: 0;
+  left: 16px;
+  height: 48px;
+  width: 330px;
+  border: 2px solid #efefef;
+  font-size: 16px;
+  text-indent: 40px;
+  border-radius: 24px;
+  outline: none;
+  background: transparent url() 16px 50% no-repeat;
+  background-size: 16px 16px;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTAgMTZhNiA2IDAgMSAxIC4wMS0xMi4wMUE2IDYgMCAwIDEgMTAgMTZtMTMuMTIgMi44OGwtNC4yNi00LjI2YTEwIDEwIDAgMSAwLTQuMjQgNC4yNGw0LjI2IDQuMjZhMyAzIDAgMSAwIDQuMjQtNC4yNCIgZmlsbD0iIzhlOGU4ZSIvPjwvc3ZnPg==);
+}
+ body .save_bg .save_boardPicker .save_boardPickerHead .save_boardPickerInputBar {
+  display: block;
+  height: 64px;
+  background: #fff;
+  position: relative;
+}
+ body .save_bg .save_boardPicker .save_boardPickerHead {
+  display: block;
+  height: 128px;
+  width: inherit;
+}
+ body .save_bg .save_boardPicker .save_boardPickerBoards {
+  display: block;
+  height: 292px;
+  width: inherit;
+  overflow: auto;
+}
+ body .save_bg .save_boardPicker .save_boardPickerSections {
+  display: block;
+  height: 292px;
+  width: inherit;
+  overflow: auto;
+}
+ body .save_bg .save_boardPicker .save_boardPickerFoot .save_plusIcon {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  height: 48px;
+  width: 48px;
+  border-radius: 8px;
+  background-image: url(data:image/svg+xml;base64,Cjxzdmcgd2lkdGg9IjMycHgiIGhlaWdodD0iMzJweCIgdmlld0JveD0iMCAwIDI0IDI0IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogIDxwYXRoIGQ9Ik0yMiAxMGgtOFYyYTIgMiAwIDAgMC00IDB2OEgyYTIgMiAwIDAgMCAwIDRoOHY4YTIgMiAwIDAgMCA0IDB2LThoOGEyIDIgMCAwIDAgMC00Ij48L3BhdGg+Cjwvc3ZnPgoKCgoK);
+  background-color: #efefef;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+}
+ body .save_bg .save_boardPicker .save_boardPickerFoot .save_boardPickerSlugLine {
+  height: inherit;
+  display: inherit;
+  font-size: 16px;
+  font-weight: bolder;
+  text-indent: 80px;
+  width: 340px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: inherit;
+}
+ body .save_bg .save_boardPicker .save_boardPickerFoot .save_mask {
+  cursor: pointer;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+ body .save_bg .save_boardPicker .save_boardPickerFoot {
+  height: 80px;
+  width: inherit;
+  position: absolute;
+  bottom: 0;
+  line-height: 80px;
+}
+ body .save_bg .save_boardPicker .save_boardPickerCreate .save_boardPickerCreateBody .save_boardPickerCreateSecretLabel {
+  display: block;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 8px 16px;
+}
+ body .save_bg .save_boardPicker .save_boardPickerCreate .save_boardPickerCreateFoot .save_boardPickerCreateCancel {
+  position: absolute;
+  left: 8px;
+}
+ body .save_bg .save_boardPicker .save_boardPickerCreate .save_boardPickerCreateFoot .save_boardPickerCreateGo {
+  display: block;
+  position: absolute;
+  right: 8px;
+}
+ body .save_bg .save_boardPicker .save_boardPickerCreate .save_boardPickerCreateFoot {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 80px;
+  width: inherit;
+}
+ body .save_bg .save_boardPicker .save_boardPickerCreate.save_modeSection .save_boardPickerCreateBody .save_boardPickerCreateSecretLabel {
+  display: none;
+}
+ body .save_bg .save_boardPicker .save_boardPickerCreate {
+  display: none;
+  height: 372px;
+  width: inherit;
+}
+ body .save_bg .save_boardPicker .save_divider {
+  display: block;
+  height: 30px;
+  padding: 8px 16px;
+  font-size: 12px;
+}
+ body .save_bg .save_boardPicker .save_item:hover .save_save {
+  display: block;
+}
+ body .save_bg .save_boardPicker .save_item:hover .save_helpers {
+  display: none;
+}
+ body .save_bg .save_boardPicker .save_item:hover {
+  background: rgba(0,0,0,.06);
+}
+ body .save_bg .save_boardPicker .save_item.save_hazSection:hover .save_save {
+  display: none;
+}
+ body .save_bg .save_boardPicker .save_item.save_hazSection:hover .save_helpers {
+  display: block;
+}
+ body .save_bg .save_boardPicker .save_item .save_cover {
+  background: #555 url() 50% 50% no-repeat;
+  background-size: cover;
+  height: 48px;
+  width: 48px;
+  margin: 8px;
+  min-width: 48px;
+  border-radius: 8px;
+  box-shadow: 0 0 1px #eee inset;
+}
+ body .save_bg .save_boardPicker .save_item .save_info.save_isSectionName {
+  padding-left: 8px;
+  width: 340px;
+}
+ body .save_bg .save_boardPicker .save_item .save_info {
+  height: 48px;
+  width: 272px;
+  overflow: hidden;
+  margin: 8px 0;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 48px;
+}
+ body .save_bg .save_boardPicker .save_item .save_helpers span {
+  background: transparent url() 50% 50% no-repeat;
+  height: 64px;
+  width: 24px;
+  display: inline-block;
+}
+ body .save_bg .save_boardPicker .save_item .save_helpers .save_collaborative {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgdmVyc2lvbj0iMS4xIiBoZWlnaHQ9IjE0IiB3aWR0aD0iMTQiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PHBhdGggZmlsbD0iIzg4OCIgZD0iTTkuMTQzIDEwLjJBNCA0IDAgMCAxIDE2IDEzdjFIMHYtMWE1IDUgMCAwIDEgOS4xNDMtMi44ek0xMiA4YTIgMiAwIDEgMCAuMDktMy45OTlBMiAyIDAgMCAwIDEyIDh6TTUgN2EyLjUgMi41IDAgMSAwIDAtNSAyLjUgMi41IDAgMCAwIDAgNXoiPjwvcGF0aD48L3N2Zz4=);
+}
+ body .save_bg .save_boardPicker .save_item .save_helpers .save_secret {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgdmVyc2lvbj0iMS4xIiBoZWlnaHQ9IjE0IiB3aWR0aD0iMTQiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PHBhdGggZmlsbD0iIzg4OCIgZD0iTTEyLjggNi43OTFoLS4wNFY0LjU2NkMxMi43NiAyLjA0OCAxMC42MjUgMCA4IDBTMy4yNCAyLjA0OCAzLjI0IDQuNTY2djIuMjI1SDMuMmMtLjc3Ny45ODQtMS4yIDIuMi0xLjIgMy40NTRDMiAxMy40MjMgNC42ODYgMTYgOCAxNnM2LTIuNTc3IDYtNS43NTVjMC0xLjI1My0uNDIzLTIuNDctMS4yLTMuNDU0em0tMi4zNiAwSDUuNTZWNC41NjZjMC0xLjI5IDEuMDk1LTIuMzQgMi40NC0yLjM0czIuNDQgMS4wNSAyLjQ0IDIuMzR2Mi4yMjV6Ij48L3BhdGg+PC9zdmc+);
+}
+ body .save_bg .save_boardPicker .save_item .save_helpers .save_opener {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgdmVyc2lvbj0iMS4xIiBoZWlnaHQ9IjE2IiB3aWR0aD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PHBhdGggZmlsbD0iIzg4OCIgZD0iTTEzLjUgOGwtNy44NCA3LjQ4MWExLjkxNCAxLjkxNCAwIDAgMS0yLjYxOC4wMDMgMS43MDUgMS43MDUgMCAwIDEgLjAwNC0yLjQ5N0w4LjI3IDggMy4wNDYgMy4wMTVBMS43MDkgMS43MDkgMCAwIDEgMy4wNDIuNTE4IDEuOTEgMS45MSAwIDAgMSA1LjY2LjUyTDEzLjUgOHoiLz48L3N2Zz4=);
+}
+ body .save_bg .save_boardPicker .save_item .save_helpers {
+  display: block;
+  white-space: nowrap;
+}
+ body .save_bg .save_boardPicker .save_item .save_mask {
+  cursor: pointer;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+ body .save_bg .save_boardPicker .save_item {
+  display: flex;
+  height: 64px;
+  width: 344px;
+  margin: 8px;
+  overflow: hidden;
+  position: relative;
+  font-size: 16px;
+  border-radius: 8px;
+}
+ body .save_bg .save_boardPicker input[type=checkbox]:checked ~ .save_toggle .save_knob {
+  float: right;
+}
+ body .save_bg .save_boardPicker input[type=checkbox]:checked ~ .save_toggle .save_optYes {
+  display: block;
+}
+ body .save_bg .save_boardPicker input[type=checkbox]:checked ~ .save_toggle .save_optNo {
+  display: none;
+}
+ body .save_bg .save_boardPicker input[type=checkbox]:checked ~ .save_toggle {
+  background: #e60023;
+}
+ body .save_bg .save_boardPicker input[type=checkbox] {
+  display: block;
+  height: 1px;
+  margin: 8px;
+  padding: 0;
+  opacity: .01;
+}
+ body .save_bg .save_boardPicker .save_toggle .save_knob {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 0 1px #eee;
+  width: 30px;
+  height: 30px;
+}
+ body .save_bg .save_boardPicker .save_toggle .save_optNo,  body .save_bg .save_boardPicker .save_toggle .save_optYes {
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 10px;
+  font-weight: bold;
+}
+ body .save_bg .save_boardPicker .save_toggle .save_optNo {
+  color: #000;
+  float: right;
+}
+ body .save_bg .save_boardPicker .save_toggle .save_optYes {
+  color: #fff;
+  float: left;
+  display: none;
+}
+ body .save_bg .save_boardPicker .save_toggle {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 0 16px;
+  background: #f8f8f8;
+  border-radius: 16px;
+  border: 1px solid #eee;
+  height: 32px;
+}
+ body .save_bg .save_boardPicker.save_hazCreate .save_boardPickerInputBar .save_boardPickerInput {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzJweCIgaGVpZ2h0PSIzMnB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgPHBhdGggZD0iTTIyIDEwaC04VjJhMiAyIDAgMCAwLTQgMHY4SDJhMiAyIDAgMCAwIDAgNGg4djhhMiAyIDAgMCAwIDQgMHYtOGg4YTIgMiAwIDAgMCAwLTQiIGZpbGw9IiM4ZThlOGUiPjwvcGF0aD4KPC9zdmc+);
+}
+ body .save_bg .save_boardPicker.save_hazCreate .save_boardPickerCreate {
+  display: block;
+}
+ body .save_bg .save_boardPicker.save_hazCreate .save_boardPickerChoose {
+  display: none;
+}
+ body .save_bg .save_boardPicker.save_fromImagePicker .save_boardPickerBoards {
+  height: 380px;
+}
+ body .save_bg .save_boardPicker.save_fromImagePicker .save_boardPickerSections {
+  height: 380px;
+}
+ body .save_bg .save_boardPicker.save_fromImagePicker .save_boardPickerHead .save_boardPickerHeadNav.save_back {
+  display: block;
+}
+ body .save_bg .save_boardPicker.save_fromImagePicker .save_boardPickerHead .save_boardPickerHeadNav {
+  display: none;
+}
+ body .save_bg .save_boardPicker.save_fromImagePicker {
+  box-shadow: none;
+  height: 590px;
+}
+ body .save_bg .save_boardPicker.save_fromSearch .save_boardPickerHead .save_boardPickerHeadNav.save_back {
+  display: block;
+}
+ body .save_bg .save_boardPicker.save_fromSearch {
+  top: 15px;
+  right: 400px;
+}
+ body .save_bg .save_boardPicker {
+  display: none;
+  overflow: hidden;
+  position: absolute;
+  height: 500px;
+  width: 360px;
+  background: #fff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+  border-radius: 16px;
+  color: #444;
+}
+ body .save_bg .save_boardPickerMask {
+  display: none;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: transparent;
+}
+ body .save_bg .save_imagePicker .save_imagePickerHead .save_default .save_imagePickerHeadMainCaption {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+}
+ body .save_bg .save_imagePicker .save_imagePickerHead .save_default ,  body .save_bg .save_imagePicker .save_imagePickerHead .save_default_imagePickerHeadSubCaption {
+  display: block;
+  font-size: 16px;
+}
+ body .save_bg .save_imagePicker .save_imagePickerHead .save_default {
+  text-align: center;
+  padding-top: 10px;
+}
+ body .save_bg .save_imagePicker .save_imagePickerHead .save_preview .save_thumb {
+  border-radius: 8px;
+  margin: 0 0 0 8px;
+  display: inline-block;
+  height: 64px;
+  width: 48px;
+  background: transparent url() 50% 50% no-repeat;
+  background-size: cover;
+}
+ body .save_bg .save_imagePicker .save_imagePickerHead .save_preview {
+  display: none;
+  height: 72px;
+  overflow: auto hidden;
+  padding-top: 8px;
+  white-space: nowrap;
+}
+ body .save_bg .save_imagePicker .save_imagePickerHead.save_hazImages .save_default {
+  display: none;
+}
+ body .save_bg .save_imagePicker .save_imagePickerHead.save_hazImages .save_preview {
+  display: block;
+}
+ body .save_bg .save_imagePicker .save_imagePickerHead {
+  display: block;
+  height: 88px;
+}
+ body .save_bg .save_imagePicker .save_imagePickerBody .save_grid .save_col .save_thumb .save_mask.save_selected {
+  border: 2px solid black;
+}
+ body .save_bg .save_imagePicker .save_imagePickerBody .save_grid .save_col .save_thumb .save_mask.save_selected:before {
+  content: "";
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+  height: 24px;
+  width: 24px;
+  border-radius: 8px;
+  background: #000 url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSIxN3B4IiBoZWlnaHQ9IjEzcHgiIHZpZXdCb3g9IjAgMCAxNyAxMyIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48Zz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMyw0TDcsOEwxNCwxQTEsMSAwIDAgMSAxNiwzTDcsMTJMMSw2QTEsMSAwIDAgMSAzLDRaIi8+PC9nPjwvc3ZnPg==) 50% 50% no-repeat;
+  background-size: 12px 12px;
+}
+ body .save_bg .save_imagePicker .save_imagePickerBody .save_grid .save_col .save_thumb .save_mask.save_selected:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid #fff;
+  border-radius: 14px;
+}
+ body .save_bg .save_imagePicker .save_imagePickerBody .save_grid .save_col .save_thumb .save_mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 16px;
+}
+ body .save_bg .save_imagePicker .save_imagePickerBody .save_grid .save_col .save_thumb img {
+  display: block;
+  width: 110px;
+}
+ body .save_bg .save_imagePicker .save_imagePickerBody .save_grid .save_col .save_thumb {
+  border-radius: 16px;
+  margin: 0 0 8px 0;
+  display: block;
+  width: 109px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+ body .save_bg .save_imagePicker .save_imagePickerBody .save_grid .save_col {
+  display: inline-block;
+  width: 115px;
+  padding: 0 6px;
+  vertical-align: top;
+}
+ body .save_bg .save_imagePicker .save_imagePickerBody .save_grid {
+  display: block;
+  margin-bottom: 80px;
+  white-space: nowrap;
+}
+ body .save_bg .save_imagePicker .save_imagePickerBody {
+  display: block;
+  height: 580px;
+  overflow: auto;
+}
+ body .save_bg .save_imagePicker .save_imagePickerFoot .save_imagePickerFootSelectAll {
+  display: none;
+  position: absolute;
+  left: 8px;
+  top: 8px;
+}
+ body .save_bg .save_imagePicker .save_imagePickerFoot.save_hazSelectAll .save_imagePickerFootSelectAll {
+  display: block;
+}
+ body .save_bg .save_imagePicker .save_imagePickerFoot .save_imagePickerFootNext {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+ body .save_bg .save_imagePicker .save_imagePickerFoot {
+  display: none;
+  background: #fff;
+  height: 80px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 360px;
+}
+ body .save_bg .save_imagePicker .save_imagePickerFeedback .save_imagePickerFeedbackBoardCover {
+  background: #555 url() 50% 50% no-repeat;
+  background-size: cover;
+  display: inline-block;
+  height: 48px;
+  width: 48px;
+  min-width: 48px;
+  border-radius: 8px;
+  box-shadow: 0 0 1px #eee inset;
+}
+ body .save_bg .save_imagePicker .save_imagePickerFeedback .save_imagePickerFeedbackBoardName {
+  overflow: hidden;
+  margin: 0 8px;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+ body .save_bg .save_imagePicker .save_imagePickerFeedback .save_imagePickerFeedbackVisitButton {
+  white-space: nowrap;
+  margin: 0 0 8px auto;
+}
+ body .save_bg .save_imagePicker .save_imagePickerFeedback {
+  display: none;
+  padding: 16px;
+  height: 80px;
+  font-size: 16px;
+  line-height: 48px;
+}
+ body .save_bg .save_imagePicker.save_hazFooter .save_imagePickerBody {
+  height: 500px;
+}
+ body .save_bg .save_imagePicker.save_hazFooter .save_imagePickerFoot {
+  display: block;
+}
+ body .save_bg .save_imagePicker.save_hazFeedback .save_imagePickerHead,  body .save_bg .save_imagePicker.save_hazFeedback .save_imagePickerBody,  body .save_bg .save_imagePicker.save_hazFeedback .save_imagePickerFoot {
+  display: none;
+}
+ body .save_bg .save_imagePicker.save_hazFeedback .save_imagePickerFeedback {
+  display: flex;
+}
+ body .save_bg .save_imagePicker.save_hazFeedback {
+  transition: height .5s ease-out;
+  height: 130px;
+}
+ body .save_bg .save_imagePicker {
+  display: none;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  height: 640px;
+  width: 360px;
+  background: #fff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 16px;
+  overflow: hidden;
+  color: #444;
+}
+ body .save_bg .save_infoContainer .save_authHelp .save_authHelpHead {
+  display: block;
+  font-weight: bold;
+  font-size: 36px;
+}
+ body .save_bg .save_infoContainer .save_authHelp .save_authHelpBody {
+  display: block;
+  font-size: 16px;
+  padding: 5px 30px 15px;
+}
+ body .save_bg .save_infoContainer .save_authHelp .save_authHelpFoot {
+  display: block;
+  padding: 5px 0 30px;
+}
+ body .save_bg .save_infoContainer .save_authHelp {
+  display: none;
+}
+ body .save_bg .save_infoContainer {
+  display: none;
+  top: 15px;
+  right: 20px;
+  overflow: hidden;
+  position: absolute;
+  width: 360px;
+  background: #fff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+  border-radius: 16px;
+  text-align: center;
+  color: #444;
+}
+ body .save_bg .save_searchContainer .save_searchInside canvas.save_move {
+  cursor: move;
+}
+ body .save_bg .save_searchContainer .save_searchInside canvas.save_pointer {
+  cursor: pointer;
+}
+ body .save_bg .save_searchContainer .save_searchInside canvas.save_ne {
+  cursor: ne-resize;
+}
+ body .save_bg .save_searchContainer .save_searchInside canvas.save_nw {
+  cursor: nw-resize;
+}
+ body .save_bg .save_searchContainer .save_searchInside canvas.save_se {
+  cursor: se-resize;
+}
+ body .save_bg .save_searchContainer .save_searchInside canvas.save_sw {
+  cursor: sw-resize;
+}
+ body .save_bg .save_searchContainer .save_searchInside canvas {
+  height: inherit;
+  margin: 0 auto;
+  cursor: crosshair;
+}
+ body .save_bg .save_searchContainer .save_searchInside {
+  display: block;
+  height: 400px;
+  background: #444 url() 50% 50% no-repeat;
+  background-size: contain;
+  text-align: center;
+}
+ body .save_bg .save_searchContainer .save_searchResults .save_searchResultsGrid .save_col .save_thumb .save_mask .save_refine {
+  display: none;
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  height: 18px;
+  width: 18px;
+  border-radius: 9px;
+  box-shadow: inset 0 0 1px #555;
+  background: #000 url(data:image/svg+xml;base64,PHN2ZyBpZD0ic291cmNlIiB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMTEiIGN5PSIxMSIgcj0iMTEiIGZpbGw9ImJsYWNrIiBmaWxsLW9wYWNpdHk9IjAuOCI+PC9jaXJjbGU+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTUuMDgzNCA0LjU4MzMzSDEzLjMzMzRWNS43NDk5OUgxNS4wODM0QzE1LjcyNjggNS43NDk5OSAxNi4yNSA2LjI3MzI0IDE2LjI1IDYuOTE2NjZWOC42NjY2NkgxNy40MTY3VjYuOTE2NjZDMTcuNDE2NyA1LjYyOTgzIDE2LjM3MDIgNC41ODMzMyAxNS4wODM0IDQuNTgzMzNaTTE2LjI1IDE1LjA4MzNDMTYuMjUgMTUuNzI2NyAxNS43MjY4IDE2LjI1IDE1LjA4MzQgMTYuMjVIMTMuMzMzNFYxNy40MTY3SDE1LjA4MzRDMTYuMzcwMiAxNy40MTY3IDE3LjQxNjcgMTYuMzcwMiAxNy40MTY3IDE1LjA4MzNWMTMuMzMzM0gxNi4yNVYxNS4wODMzWk01Ljc1MDA0IDE1LjA4MzNWMTMuMzMzM0g0LjU4MzM3VjE1LjA4MzNDNC41ODMzNyAxNi4zNzAyIDUuNjI5ODcgMTcuNDE2NyA2LjkxNjcxIDE3LjQxNjdIOC42NjY3MVYxNi4yNUg2LjkxNjcxQzYuMjczMjkgMTYuMjUgNS43NTAwNCAxNS43MjY3IDUuNzUwMDQgMTUuMDgzM1pNNS43NTAwNCA2LjkxNjY2QzUuNzUwMDQgNi4yNzMyNCA2LjI3MzI5IDUuNzQ5OTkgNi45MTY3MSA1Ljc0OTk5SDguNjY2NzFWNC41ODMzM0g2LjkxNjcxQzUuNjI5ODcgNC41ODMzMyA0LjU4MzM3IDUuNjI5ODMgNC41ODMzNyA2LjkxNjY2VjguNjY2NjZINS43NTAwNFY2LjkxNjY2Wk05LjI1MDA0IDEwLjcwODNDOS4yNTAwNCA5LjkwNDQ5IDkuOTA0NTQgOS4yNDk5OSAxMC43MDg0IDkuMjQ5OTlDMTEuNTEyMiA5LjI0OTk5IDEyLjE2NjcgOS45MDQ0OSAxMi4xNjY3IDEwLjcwODNDMTIuMTY2NyAxMS41MTIyIDExLjUxMjIgMTIuMTY2NyAxMC43MDg0IDEyLjE2NjdDOS45MDQ1NCAxMi4xNjY3IDkuMjUwMDQgMTEuNTEyMiA5LjI1MDA0IDEwLjcwODNaTTEzLjYyNSAxNC41QzEzLjg0OSAxNC41IDE0LjA3MyAxNC40MTQ4IDE0LjI0NCAxNC4yNDM5QzE0LjU4NTIgMTMuOTAyMSAxNC41ODUyIDEzLjM0NzkgMTQuMjQ0IDEzLjAwNjFMMTMuMDcwMyAxMS44MzNDMTMuMjM0MiAxMS40OTA2IDEzLjMzMzQgMTEuMTEyNiAxMy4zMzM0IDEwLjcwODNDMTMuMzMzNCA5LjI2MTA4IDEyLjE1NTYgOC4wODMzMyAxMC43MDg0IDguMDgzMzNDOS4yNjExMiA4LjA4MzMzIDguMDgzMzcgOS4yNjEwOCA4LjA4MzM3IDEwLjcwODNDOC4wODMzNyAxMi4xNTU2IDkuMjYxMTIgMTMuMzMzMyAxMC43MDg0IDEzLjMzMzNDMTEuMTEyNiAxMy4zMzMzIDExLjQ5MDYgMTMuMjM0MiAxMS44MzMgMTMuMDcwMkwxMy4wMDYxIDE0LjI0MzlDMTMuMTc3IDE0LjQxNDggMTMuNDAxIDE0LjUgMTMuNjI1IDE0LjVaIiBmaWxsPSJ3aGl0ZSI+PC9wYXRoPgo8L3N2Zz4=) 50% 50% no-repeat;
+  background-size: 16px 16px;
+}
+ body .save_bg .save_searchContainer .save_searchResults .save_searchResultsGrid .save_col .save_thumb .save_mask .save_openBoardPickerFromSearch.save_done {
+  background-color: #444;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSIxN3B4IiBoZWlnaHQ9IjEzcHgiIHZpZXdCb3g9IjAgMCAxNyAxMyIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48Zz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMyw0TDcsOEwxNCwxQTEsMSAwIDAgMSAxNiwzTDcsMTJMMSw2QTEsMSAwIDAgMSAzLDRaIi8+PC9nPjwvc3ZnPg==);
+  background-size: 10px 10px;
+}
+ body .save_bg .save_searchContainer .save_searchResults .save_searchResultsGrid .save_col .save_thumb .save_mask .save_openBoardPickerFromSearch.save_working {
+  background: linear-gradient(rgba(0,0,0,0.06), rgba(0,0,0,0.06)), url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIAoJeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiAKCXhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiAKCWhlaWdodD0iMzIiCgl3aWR0aD0iMzIiCgl2aWV3Qm94PSIwIDAgMTYgMTYiIAoJeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+Cgk8cGF0aCBmaWxsPSIjZmZmIiBkPSIKICAJTSA4LCAwCiAgICBBIC41LCAuNSwgMCwgMCwgMCwgOCwgMQogICAgQSA2LCA3LCAwLCAwLCAxLCAxNCwgOAogICAgQSA2LCA2LCAwLCAwLCAxLCA4LCAxNAogICAgQSA1LCA2LCAwLCAwLCAxLCAzLCA4CiAgICBBIDEsIDEsIDAsIDAsIDAsIDAsIDgKICAgIEEgOCwgOCwgMCwgMCwgMCwgOCwgMTYKICAgIEEgOCwgOCwgMCwgMCwgMCwgMTYsIDgKICAgIEEgOCwgOCwgMCwgMCwgMCwgOCwgMAogICAgWiIgPgogICAgPGFuaW1hdGVUcmFuc2Zvcm0KCQkJYXR0cmlidXRlVHlwZT0ieG1sIgoJCQlhdHRyaWJ1dGVOYW1lPSJ0cmFuc2Zvcm0iCgkJCXR5cGU9InJvdGF0ZSIKCQkJZnJvbT0iMCA4IDgiCgkJCXRvPSIzNjAgOCA4IgoJCQlkdXI9IjAuNnMiCgkJCXJlcGVhdENvdW50PSJpbmRlZmluaXRlIgoJCS8+Cgk8L3BhdGg+Cjwvc3ZnPgo=) 50% 50% no-repeat;
+  background-color: #e60023;
+  background-size: 18px 18px;
+  color: transparent;
+}
+ body .save_bg .save_searchContainer .save_searchResults .save_searchResultsGrid .save_col .save_thumb .save_mask .save_openBoardPickerFromSearch {
+  display: none;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  height: 18px;
+  width: 18px;
+  border-radius: 9px;
+  box-shadow: inset 0 0 1px #555;
+  background: #e60023 url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE2IiB3aWR0aD0iMTYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTEzLjk4OCAxOS4xNTNjMS40OTctMS40OTcgMS45OTctMy43MDcgMS40OTMtNS42MTZsNC4yNTktNC40NjMgMi45MjItLjI2Ny0uMDE3LS4wMThhLjMuMyAwIDAgMCAuMjY0LS4wODEuMzA4LjMwOCAwIDAgMCAuMDAxLS40MzdMMTUuNzMgMS4wOWEuMzEuMzEgMCAwIDAtLjQzOC4wMDEuMzA1LjMwNSAwIDAgMC0uMDgxLjI2NWwtLjAxNy0uMDE4LS4yNjcgMi45MjMtNC40NjQgNC4yNTljLTEuOTA5LS41MDUtNC4xMTktLjAwNC01LjYxNiAxLjQ5MmwzLjgwOSAzLjgwOS01LjMzMiA1LjMzMmMtLjc2Mi43NjItMi42MTMgMi45NTUtMi4yODUgMy44MDkuODUzLjMyOCAzLjA0Ny0xLjUyNCAzLjgwOC0yLjI4Nmw1LjMzMi01LjMzMiAzLjgwOSAzLjgwOVoiPjwvcGF0aD48L3N2Zz4=) 50% 50% no-repeat;
+  background-size: 12px 12px;
+}
+ body .save_bg .save_searchContainer .save_searchResults .save_searchResultsGrid .save_col .save_thumb .save_mask:hover .save_refine {
+  display: block;
+}
+ body .save_bg .save_searchContainer .save_searchResults .save_searchResultsGrid .save_col .save_thumb .save_mask:hover .save_openBoardPickerFromSearch {
+  display: block;
+}
+ body .save_bg .save_searchContainer .save_searchResults .save_searchResultsGrid .save_col .save_thumb .save_mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 16px;
+}
+ body .save_bg .save_searchContainer .save_searchResults .save_searchResultsGrid .save_col .save_thumb img {
+  display: block;
+  width: 110px;
+}
+ body .save_bg .save_searchContainer .save_searchResults .save_searchResultsGrid .save_col .save_thumb {
+  border-radius: 16px;
+  margin: 0 0 8px 0;
+  display: block;
+  width: 109px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+ body .save_bg .save_searchContainer .save_searchResults .save_searchResultsGrid .save_col {
+  display: inline-block;
+  width: 115px;
+  padding: 0 6px;
+  vertical-align: top;
+}
+ body .save_bg .save_searchContainer .save_searchResults .save_searchResultsGrid.save_cols_2 .save_col .save_thumb .save_footer .save_avatar {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  height: 24px;
+  width: 24px;
+  border-radius: 12px;
+  box-shadow: inset 0 0 1px #555;
+  cursor: pointer;
+}
+ body .save_bg .save_searchContainer .save_searchResults .save_searchResultsGrid.save_cols_2 .save_col .save_thumb .save_footer .save_title {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  font-size: 11px;
+  white-space: pre;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 120px;
+}
+ body .save_bg .save_searchContainer .save_searchResults .save_searchResultsGrid.save_cols_2 .save_col .save_thumb .save_footer {
+  cursor: default;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background: #fff;
+  line-height: 40px;
+  box-shadow: inset 0 0 1px #555;
+}
+ body .save_bg .save_searchContainer .save_searchResults .save_searchResultsGrid.save_cols_2 .save_col .save_thumb .save_mask .save_refine,  body .save_bg .save_searchContainer .save_searchResults .save_searchResultsGrid.save_cols_2 .save_col .save_thumb .save_mask .save_openBoardPickerFromSearch {
+  top: 10px;
+  height: 24px;
+  width: 24px;
+  border-radius: 12px;
+}
+ body .save_bg .save_searchContainer .save_searchResults .save_searchResultsGrid.save_cols_2 .save_col .save_thumb .save_mask .save_refine {
+  right: 8px;
+  background-size: 20px 20px;
+}
+ body .save_bg .save_searchContainer .save_searchResults .save_searchResultsGrid.save_cols_2 .save_col .save_thumb .save_mask .save_openBoardPickerFromSearch {
+  left: 8px;
+  background-size: 12px 12px;
+}
+ body .save_bg .save_searchContainer .save_searchResults .save_searchResultsGrid.save_cols_2 .save_col .save_thumb img {
+  width: 170px;
+}
+ body .save_bg .save_searchContainer .save_searchResults .save_searchResultsGrid.save_cols_2 .save_col .save_thumb {
+  width: 169px;
+  box-shadow: 0 0 1px #000;
+  padding-bottom: 40px;
+}
+ body .save_bg .save_searchContainer .save_searchResults .save_searchResultsGrid.save_cols_2 .save_col {
+  width: 175px;
+}
+ body .save_bg .save_searchContainer .save_searchResults .save_searchResultsGrid {
+  display: block;
+  margin-top: 8px;
+  white-space: nowrap;
+}
+ body .save_bg .save_searchContainer .save_searchResults {
+  display: block;
+  height: 190px;
+  overflow: auto;
+}
+ body .save_bg .save_searchContainer {
+  user-select: none;
+  display: none;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  height: 640px;
+  width: 360px;
+  background: #fff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 16px;
+  overflow: hidden;
+  color: #444;
+}
+ body .save_bg.save_hazSearch .save_searchContainer {
+  display: block;
+}
+ body .save_bg.save_hazBoardPicker .save_boardPicker {
+  display: block;
+}
+ body .save_bg.save_hazBoardPicker .save_boardPickerMask {
+  display: block;
+}
+ body .save_bg.save_hazImagePicker .save_imagePicker.save_hideSubCaption .save_imagePickerHead {
+  height: 64px;
+}
+ body .save_bg.save_hazImagePicker .save_imagePicker.save_hideSubCaption .save_imagePickerHeadSubCaption {
+  display: none;
+}
+ body .save_bg.save_hazImagePicker .save_imagePicker {
+  display: block;
+}
+ body .save_bg.save_hazAuthHelp .save_infoContainer .save_authHelp {
+  display: block;
+}
+ body .save_bg.save_hazAuthHelp .save_infoContainer {
+  display: block;
+}
+ body .save_bg.save_hazAuthHelp {
+  height: 390px;
+}
+ body .save_bg.save_hazOnlyOneImage .save_boardPicker .save_boardPickerHead .save_boardPickerHide {
+  display: none;
+}
+ body .save_bg.save_hazOnlyOneImage .save_imagePicker .save_imagePickerHead {
+  display: none;
+}
+ body .save_bg {
+  display: none;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: transparent;
+}
+ body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ .save_interfaceHead .save_settings {
+  position: absolute;
+  top: 10px;
+  right: 42px;
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+  background: transparent url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGhlaWdodD0iMjQiIHdpZHRoPSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KPHBhdGggZD0iTTEyIDljLTEuNjYgMC0zIDEuMzQtMyAzczEuMzQgMyAzIDMgMy0xLjM0IDMtMy0xLjM0LTMtMy0zTTMgOWMxLjY2IDAgMyAxLjM0IDMgM3MtMS4zNCAzLTMgMy0zLTEuMzQtMy0zIDEuMzQtMyAzLTN6bTE4IDBjMS42NiAwIDMgMS4zNCAzIDNzLTEuMzQgMy0zIDMtMy0xLjM0LTMtMyAxLjM0LTMgMy0zeiI+PC9wYXRoPgo8L3N2Zz4=) 50% 50% no-repeat;
+  background-size: 16px 16px;
+}
+ .save_interfaceHead .save_close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+  background: transparent url(data:image/svg+xml;base64,CjxzdmcgdmVyc2lvbj0iMS4xIiBoZWlnaHQ9IjE2IiB3aWR0aD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CjxwYXRoIGZpbGw9IiMwMDAiIGQ9Ik04IDUuNTA2TDMuMDE1LjUyQTEuNzY1IDEuNzY1IDAgMSAwIC41MjEgMy4wMTVMNS41MDYgOCAuNTIgMTIuOTg1QTEuNzY1IDEuNzY1IDAgMCAwIDEuNzY2IDE2YTEuNzYgMS43NiAwIDAgMCAxLjI0OC0uNTJMOCAxMC40OTNsNC45ODUgNC45ODVhMS43NjcgMS43NjcgMCAwIDAgMi40OTguMDA0IDEuNzYyIDEuNzYyIDAgMCAwLS4wMDQtMi40OThMMTAuNDk0IDhsNC45ODUtNC45ODVhMS43NjcgMS43NjcgMCAwIDAgLjAwNC0yLjQ5OCAxLjc2MiAxLjc2MiAwIDAgMC0yLjQ5OC4wMDRMOCA1LjUwNnoiPjwvcGF0aD4KPC9zdmc+) 50% 50% no-repeat;
+  background-size: 16px 16px;
+}
+ .save_interfaceHead {
+  display: block;
+  height: 52px;
+  background: transparent url(data:image/svg+xml;base64,PHN2ZyBpZD0ic291cmNlIiB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iOCIgY3k9IjgiIHI9IjgiIGZpbGw9IndoaXRlIj48L2NpcmNsZT4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0wIDhDMCAxMS40MTUzIDIuMTQwNjcgMTQuMzMxMyA1LjE1MzMzIDE1LjQ3ODdDNS4wOCAxNC44NTQgNS4wMDIgMTMuODI0IDUuMTcgMTMuMTAxM0M1LjMxNDY3IDEyLjQ4IDYuMTA0IDkuMTQyNjcgNi4xMDQgOS4xNDI2N0M2LjEwNCA5LjE0MjY3IDUuODY2IDguNjY2IDUuODY2IDcuOTZDNS44NjYgNi44NTMzMyA2LjUwNzMzIDYuMDI2NjcgNy4zMDY2NyA2LjAyNjY3QzcuOTg2NjcgNi4wMjY2NyA4LjMxNDY3IDYuNTM2NjcgOC4zMTQ2NyA3LjE0OEM4LjMxNDY3IDcuODMxMzMgNy44NzkzMyA4Ljg1MjY3IDcuNjU0NjcgOS44QzcuNDY3MzMgMTAuNTkyNyA4LjA1MjY3IDExLjIzOTMgOC44MzQgMTEuMjM5M0MxMC4yNDkzIDExLjIzOTMgMTEuMzM4IDkuNzQ2NjcgMTEuMzM4IDcuNTkyQzExLjMzOCA1LjY4NDY3IDkuOTY3MzMgNC4zNTIgOC4wMTA2NyA0LjM1MkM1Ljc0NTMzIDQuMzUyIDQuNDE1MzMgNi4wNTEzMyA0LjQxNTMzIDcuODA4QzQuNDE1MzMgOC40OTI2NyA0LjY3ODY3IDkuMjI2IDUuMDA4IDkuNjI1MzNDNS4wNzI2NyA5LjcwNDY3IDUuMDgyNjcgOS43NzMzMyA1LjA2MzMzIDkuODU0QzUuMDAyNjcgMTAuMTA2IDQuODY4IDEwLjY0NjcgNC44NDIgMTAuNzU3M0M0LjgwNjY3IDEwLjkwMjcgNC43MjY2NyAxMC45MzQgNC41NzUzMyAxMC44NjMzQzMuNTgwNjcgMTAuNDAwNyAyLjk1OTMzIDguOTQ2NjcgMi45NTkzMyA3Ljc3ODY3QzIuOTU5MzMgNS4yNjYgNC43ODQgMi45NTkzMyA4LjIyMDY3IDIuOTU5MzNDMTAuOTgzMyAyLjk1OTMzIDEzLjEzMDcgNC45MjggMTMuMTMwNyA3LjU1ODY3QzEzLjEzMDcgMTAuMzAzMyAxMS40MDA3IDEyLjUxMjcgOC45OTggMTIuNTEyN0M4LjE5MDY3IDEyLjUxMjcgNy40MzI2NyAxMi4wOTI3IDcuMTcyNjcgMTEuNTk3M0M3LjE3MjY3IDExLjU5NzMgNi43NzMzMyAxMy4xMTg3IDYuNjc2NjcgMTMuNDkwN0M2LjQ4ODY3IDE0LjIxMzMgNS45NjczMyAxNS4xMjggNS42NDQgMTUuNjQ3M0M2LjM4OTMzIDE1Ljg3NjcgNy4xOCAxNiA4IDE2QzEyLjQxOCAxNiAxNiAxMi40MTggMTYgOEMxNiAzLjU4MiAxMi40MTggMCA4IDBDMy41ODIgMCAwIDMuNTgyIDAgOFoiIGZpbGw9IiNFNjAwMjMiPjwvcGF0aD4KPC9zdmc+) 16px 16px no-repeat;
+  background-size: 20px 20px;
+}
+ .save_button.save_majorAction {
+  background-color: #e60023;
+  color: #fff;
+}
+ .save_button.save_save {
+  display: none;
+  background-color: #e60023;
+  color: #fff;
+}
+ .save_button.save_imagePickerFootNext {
+  background-color: #e60023;
+  color: #fff;
+}
+ .save_button.save_cancel,  .save_button.save_imagePickerFootSelectAll {
+  background-color: #eee;
+  color: #000;
+}
+ .save_button.save_disabled {
+  background-color: #ddd;
+  color: #aaa;
+  cursor: normal;
+  pointer-events: none;
+}
+ .save_button {
+  cursor: pointer;
+  display: inline-block;
+  margin: 8px;
+  height: 48px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 48px;
+  text-align: center;
+  border-radius: 24px;
+  background-color: #efefef;
+  color: #000;
+}
+ .save_hidden {
+  display: none!important;
+}
+</style></head>
+  <body>
+    <script src="chrome-extension://gpdjojdkbbmdfjfahjcgigfpmkopogic/js/save.js"></script>
+  
+
+<span class="save_bg" data-cmd="close"><span class="save_me"><span class="save_boardPickerOpener" data-cmd="close"><span class="save_boardPickerOpenerContainer"><span class="save_boardPickerOpenerLabel">Auf Pinnwand merken</span><span class="save_boardPickerOpenerCurrent">pričest</span><span class="save_boardPickerOpenerMask save_mask" data-cmd="openBoardPicker"></span></span><span class="save_saveAction" data-cmd="save">Merken</span><span class="save_afterSave" data-cmd="visit" data-can-share="true"></span></span></span><span class="save_imagePicker"><span class="save_interfaceHead"><span class="save_close" data-cmd="closeImagePicker"></span></span><span class="save_imagePickerHead"><span class="save_default"><span class="save_imagePickerHeadMainCaption">Merke dir eine Idee auf Pinterest</span><span class="save_imagePickerHeadSubCaption">Wähle bis zu 20&nbsp;Bilder aus</span></span><span class="save_preview"></span></span><span class="save_imagePickerBody"><span class="save_grid"></span></span><span class="save_imagePickerFoot"><span class="save_imagePickerFootSelectAll save_button" data-cmd="selectAllThumbs">Alle auswählen</span><span class="save_imagePickerFootNext save_button save_disabled" data-cmd="openBoardPickerFromImagePicker">Weiter</span></span><span class="save_imagePickerFeedback"><span class="save_imagePickerFeedbackBoardCover"></span><span class="save_imagePickerFeedbackBoardName"></span><span class="save_imagePickerFeedbackVisitButton save_button save_disabled" data-cmd="visit" data-can-share="true">Besuchen</span></span></span><span class="save_boardPicker"><span class="save_boardPickerHead"><span class="save_boardPickerHeadLine">Pinnwand auswählen</span><span class="save_boardPickerHeadNav" data-cmd="close"></span><span class="save_boardPickerHide save_hidden" data-cmd="backToImagePicker"></span><span class="save_boardPickerInputBar"><input class="save_boardPickerInput save_search"></span></span><span class="save_boardPickerChoose"><span class="save_boardPickerBoards"><span class="save_boardPickerTopContainer"><span class="save_boardPickerTopHeader save_divider">Beliebte Auswahl</span><span class="save_boardPickerTopList"><span class="save_615656280249699122 save_item" data-board-name="pričest"><span class="save_cover" style="background-image: url(&quot;https://i.pinimg.com/400x300/4c/28/b4/4c28b463d34e6f5a15b0ab5e270b792a.jpg&quot;);"></span><span class="save_info">pričest</span><span class="save_helpers"><span class="save_collaborative save_hidden"></span><span class="save_secret save_hidden"></span><span class="save_opener save_hidden"></span></span><span class="save_saveButton save_button save_save">Merken</span><span class="save_mask" data-cmd="saveBoardPicker" data-board-id="615656280249699122" data-board-name="pričest"></span></span><span class="save_615656280249988470 save_item" data-board-name="crtež"><span class="save_cover" style="background-image: url(&quot;https://i.pinimg.com/400x300/76/ac/23/76ac2384c0f126ada04717937a395b05.jpg&quot;);"></span><span class="save_info">crtež</span><span class="save_helpers"><span class="save_collaborative save_hidden"></span><span class="save_secret save_hidden"></span><span class="save_opener save_hidden"></span></span><span class="save_saveButton save_button save_save">Merken</span><span class="save_mask" data-cmd="saveBoardPicker" data-board-id="615656280249988470" data-board-name="crtež"></span></span><span class="save_615656280249568612 save_item" data-board-name="torte ideje"><span class="save_cover" style="background-image: url(&quot;https://i.pinimg.com/400x300/d2/db/2b/d2db2b933bc2e25480048a77c4b5bbb6.jpg&quot;);"></span><span class="save_info">torte ideje</span><span class="save_helpers"><span class="save_collaborative save_hidden"></span><span class="save_secret save_hidden"></span><span class="save_opener save_hidden"></span></span><span class="save_saveButton save_button save_save">Merken</span><span class="save_mask" data-cmd="saveBoardPicker" data-board-id="615656280249568612" data-board-name="torte ideje"></span></span></span></span><span class="save_boardPickerAllHeader save_divider">Alle Pinnwände</span><span class="save_boardPickerAllList"><span class="save_615656280249585476 save_item" data-board-name="ambalaža"><span class="save_cover" style="background-image: url(&quot;https://i.pinimg.com/400x300/af/f4/c8/aff4c88b151b5a9c098f02a898741a37.jpg&quot;);"></span><span class="save_info">ambAlaža</span><span class="save_helpers"><span class="save_collaborative save_hidden"></span><span class="save_secret save_hidden"></span><span class="save_opener save_hidden"></span></span><span class="save_saveButton save_button save_save">Merken</span><span class="save_mask" data-cmd="saveBoardPicker" data-board-id="615656280249585476" data-board-name="ambAlaža"></span></span><span class="save_615656280250509738 save_item" data-board-name="božić"><span class="save_cover" style="background-image: url(&quot;https://i.pinimg.com/400x300/da/e0/f0/dae0f0e69954cf144270ed5d0a11a7af.jpg&quot;);"></span><span class="save_info">božić</span><span class="save_helpers"><span class="save_collaborative save_hidden"></span><span class="save_secret save_hidden"></span><span class="save_opener save_hidden"></span></span><span class="save_saveButton save_button save_save">Merken</span><span class="save_mask" data-cmd="saveBoardPicker" data-board-id="615656280250509738" data-board-name="božić"></span></span><span class="save_615656280250577361 save_item" data-board-name="crazy cakes"><span class="save_cover" style="background-image: url(&quot;https://i.pinimg.com/400x300/e8/62/2a/e8622a780c9e0a701aba52c97d2725c1.jpg&quot;);"></span><span class="save_info">Crazy cakes</span><span class="save_helpers"><span class="save_collaborative save_hidden"></span><span class="save_secret save_hidden"></span><span class="save_opener save_hidden"></span></span><span class="save_saveButton save_button save_save">Merken</span><span class="save_mask" data-cmd="saveBoardPicker" data-board-id="615656280250577361" data-board-name="Crazy cakes"></span></span><span class="save_615656280249988470 save_item" data-board-name="crtež"><span class="save_cover" style="background-image: url(&quot;https://i.pinimg.com/400x300/76/ac/23/76ac2384c0f126ada04717937a395b05.jpg&quot;);"></span><span class="save_info">crtež</span><span class="save_helpers"><span class="save_collaborative save_hidden"></span><span class="save_secret save_hidden"></span><span class="save_opener save_hidden"></span></span><span class="save_saveButton save_button save_save">Merken</span><span class="save_mask" data-cmd="saveBoardPicker" data-board-id="615656280249988470" data-board-name="crtež"></span></span><span class="save_615656280250730061 save_item" data-board-name="figure"><span class="save_cover" style="background-image: url(&quot;https://i.pinimg.com/400x300/d2/9b/81/d29b81c29d17a3cb124368616899754e.jpg&quot;);"></span><span class="save_info">figure</span><span class="save_helpers"><span class="save_collaborative save_hidden"></span><span class="save_secret save_hidden"></span><span class="save_opener save_hidden"></span></span><span class="save_saveButton save_button save_save">Merken</span><span class="save_mask" data-cmd="saveBoardPicker" data-board-id="615656280250730061" data-board-name="figure"></span></span><span class="save_615656280249569941 save_item" data-board-name="flower"><span class="save_cover" style="background-image: url(&quot;https://i.pinimg.com/400x300/5c/d4/44/5cd444761e848110a1a71c1a253730e6.jpg&quot;);"></span><span class="save_info">flower</span><span class="save_helpers"><span class="save_collaborative save_hidden"></span><span class="save_secret save_hidden"></span><span class="save_opener save_hidden"></span></span><span class="save_saveButton save_button save_save">Merken</span><span class="save_mask" data-cmd="saveBoardPicker" data-board-id="615656280249569941" data-board-name="flower"></span></span><span class="save_615656280250497377 save_item" data-board-name="hand painted wedding cake"><span class="save_cover" style="background-image: url(&quot;https://i.pinimg.com/400x300/a8/54/70/a8547026f706835f95a3da7aefec7724.jpg&quot;);"></span><span class="save_info">Hand painted wedding cake</span><span class="save_helpers"><span class="save_collaborative save_hidden"></span><span class="save_secret save_hidden"></span><span class="save_opener save_hidden"></span></span><span class="save_saveButton save_button save_save">Merken</span><span class="save_mask" data-cmd="saveBoardPicker" data-board-id="615656280250497377" data-board-name="Hand painted wedding cake"></span></span><span class="save_615656280249882563 save_item" data-board-name="keksići"><span class="save_cover" style="background-image: url(&quot;https://i.pinimg.com/400x300/ea/0b/2c/ea0b2c0e7625955250966861b22dcb09.jpg&quot;);"></span><span class="save_info">keksići</span><span class="save_helpers"><span class="save_collaborative save_hidden"></span><span class="save_secret save_hidden"></span><span class="save_opener save_hidden"></span></span><span class="save_saveButton save_button save_save">Merken</span><span class="save_mask" data-cmd="saveBoardPicker" data-board-id="615656280249882563" data-board-name="keksići"></span></span><span class="save_615656280249627108 save_item" data-board-name="kreativa"><span class="save_cover" style="background-image: url(&quot;https://i.pinimg.com/400x300/43/a8/57/43a857433277bba8d1f2f44f24a8d216.jpg&quot;);"></span><span class="save_info">kreativa</span><span class="save_helpers"><span class="save_collaborative save_hidden"></span><span class="save_secret save_hidden"></span><span class="save_opener save_hidden"></span></span><span class="save_saveButton save_button save_save">Merken</span><span class="save_mask" data-cmd="saveBoardPicker" data-board-id="615656280249627108" data-board-name="kreativa"></span></span><span class="save_615656280249701685 save_item" data-board-name="krizma"><span class="save_cover" style="background-image: url(&quot;https://i.pinimg.com/400x300/28/55/05/285505a0f06872da0058430735a7fb44.jpg&quot;);"></span><span class="save_info">krizma</span><span class="save_helpers"><span class="save_collaborative save_hidden"></span><span class="save_secret save_hidden"></span><span class="save_opener save_hidden"></span></span><span class="save_saveButton save_button save_save">Merken</span><span class="save_mask" data-cmd="saveBoardPicker" data-board-id="615656280249701685" data-board-name="krizma"></span></span><span class="save_615656280249666461 save_item" data-board-name="makaron"><span class="save_cover" style="background-image: url(&quot;https://i.pinimg.com/400x300/27/63/bb/2763bbd2d947cb147e1414a8028ba433.jpg&quot;);"></span><span class="save_info">makaron</span><span class="save_helpers"><span class="save_collaborative save_hidden"></span><span class="save_secret save_hidden"></span><span class="save_opener save_hidden"></span></span><span class="save_saveButton save_button save_save">Merken</span><span class="save_mask" data-cmd="saveBoardPicker" data-board-id="615656280249666461" data-board-name="makaron"></span></span><span class="save_615656280249592670 save_item" data-board-name="marmelade"><span class="save_cover" style="background-image: url(&quot;https://i.pinimg.com/400x300/54/d1/16/54d116fd9fda4f82b7cdf248c9fe2fe9.jpg&quot;);"></span><span class="save_info">marmelade</span><span class="save_helpers"><span class="save_collaborative save_hidden"></span><span class="save_secret save_hidden"></span><span class="save_opener save_hidden"></span></span><span class="save_saveButton save_button save_save">Merken</span><span class="save_mask" data-cmd="saveBoardPicker" data-board-id="615656280249592670" data-board-name="marmelade"></span></span><span class="save_615656280250006886 save_item" data-board-name="mirror"><span class="save_cover" style="background-image: url(&quot;https://i.pinimg.com/400x300/bd/b8/e6/bdb8e66d106a632861d3056c9d064b98.jpg&quot;);"></span><span class="save_info">mirror</span><span class="save_helpers"><span class="save_collaborative save_hidden"></span><span class="save_secret save_hidden"></span><span class="save_opener save_hidden"></span></span><span class="save_saveButton save_button save_save">Merken</span><span class="save_mask" data-cmd="saveBoardPicker" data-board-id="615656280250006886" data-board-name="mirror"></span></span><span class="save_615656280249612648 save_item" data-board-name="pletenice"><span class="save_cover" style="background-image: url(&quot;https://i.pinimg.com/400x300/3c/15/5d/3c155dd675e5caba90a5be8d55909594.jpg&quot;);"></span><span class="save_info">pletenice</span><span class="save_helpers"><span class="save_collaborative save_hidden"></span><span class="save_secret save_hidden"></span><span class="save_opener save_hidden"></span></span><span class="save_saveButton save_button save_save">Merken</span><span class="save_mask" data-cmd="saveBoardPicker" data-board-id="615656280249612648" data-board-name="pletenice"></span></span><span class="save_615656280249701686 save_item" data-board-name="porcije"><span class="save_cover" style="background-image: url(&quot;https://i.pinimg.com/400x300/b8/1f/a6/b81fa61e8d1fa7c0d94a55c59b73dcc6.jpg&quot;);"></span><span class="save_info">porcije</span><span class="save_helpers"><span class="save_collaborative save_hidden"></span><span class="save_secret save_hidden"></span><span class="save_opener save_hidden"></span></span><span class="save_saveButton save_button save_save">Merken</span><span class="save_mask" data-cmd="saveBoardPicker" data-board-id="615656280249701686" data-board-name="porcije"></span></span><span class="save_615656280249699122 save_item" data-board-name="pričest"><span class="save_cover" style="background-image: url(&quot;https://i.pinimg.com/400x300/4c/28/b4/4c28b463d34e6f5a15b0ab5e270b792a.jpg&quot;);"></span><span class="save_info">pričest</span><span class="save_helpers"><span class="save_collaborative save_hidden"></span><span class="save_secret save_hidden"></span><span class="save_opener save_hidden"></span></span><span class="save_saveButton save_button save_save">Merken</span><span class="save_mask" data-cmd="saveBoardPicker" data-board-id="615656280249699122" data-board-name="pričest"></span></span><span class="save_615656280249568610 save_item" data-board-name="receipes"><span class="save_cover" style="background-image: url(&quot;https://i.pinimg.com/400x300/d2/3b/00/d23b00caecf2fa7ac4c07fae5d9f4657.jpg&quot;);"></span><span class="save_info">Receipes</span><span class="save_helpers"><span class="save_collaborative save_hidden"></span><span class="save_secret save_hidden"></span><span class="save_opener save_hidden"></span></span><span class="save_saveButton save_button save_save">Merken</span><span class="save_mask" data-cmd="saveBoardPicker" data-board-id="615656280249568610" data-board-name="Receipes"></span></span><span class="save_615656280250509734 save_item" data-board-name="snack"><span class="save_cover" style="background-image: url(&quot;https://i.pinimg.com/400x300/cd/b9/b5/cdb9b5941ad4ec9e09d3b86db87ee65c.jpg&quot;);"></span><span class="save_info">snack</span><span class="save_helpers"><span class="save_collaborative save_hidden"></span><span class="save_secret save_hidden"></span><span class="save_opener save_hidden"></span></span><span class="save_saveButton save_button save_save">Merken</span><span class="save_mask" data-cmd="saveBoardPicker" data-board-id="615656280250509734" data-board-name="snack"></span></span><span class="save_615656280249592669 save_item" data-board-name="sokovi"><span class="save_cover" style="background-image: url(&quot;https://i.pinimg.com/400x300/c8/00/20/c80020be01e77de5d2b2f95e654d20b1.jpg&quot;);"></span><span class="save_info">sokovi</span><span class="save_helpers"><span class="save_collaborative save_hidden"></span><span class="save_secret save_hidden"></span><span class="save_opener save_hidden"></span></span><span class="save_saveButton save_button save_save">Merken</span><span class="save_mask" data-cmd="saveBoardPicker" data-board-id="615656280249592669" data-board-name="sokovi"></span></span><span class="save_615656280250130697 save_item" data-board-name="stalci"><span class="save_cover" style="background-image: url(&quot;https://i.pinimg.com/400x300/f3/97/0c/f3970cb934e75b5b877dacf4cdb2fb90.jpg&quot;);"></span><span class="save_info">stalci</span><span class="save_helpers"><span class="save_collaborative save_hidden"></span><span class="save_secret save_hidden"></span><span class="save_opener save_hidden"></span></span><span class="save_saveButton save_button save_save">Merken</span><span class="save_mask" data-cmd="saveBoardPicker" data-board-id="615656280250130697" data-board-name="stalci"></span></span><span class="save_615656280249568612 save_item" data-board-name="torte ideje"><span class="save_cover" style="background-image: url(&quot;https://i.pinimg.com/400x300/d2/db/2b/d2db2b933bc2e25480048a77c4b5bbb6.jpg&quot;);"></span><span class="save_info">torte ideje</span><span class="save_helpers"><span class="save_collaborative save_hidden"></span><span class="save_secret save_hidden"></span><span class="save_opener save_hidden"></span></span><span class="save_saveButton save_button save_save">Merken</span><span class="save_mask" data-cmd="saveBoardPicker" data-board-id="615656280249568612" data-board-name="torte ideje"></span></span></span></span><span class="save_boardPickerSections save_hidden"></span><span class="save_boardPickerFoot"><span class="save_plusIcon"></span><span class="save_boardPickerSlugLine">Pinnwand erstellen</span><span class="save_mask" data-cmd="openModeCreate"></span></span></span><span class="save_boardPickerCreate"><span class="save_boardPickerCreateBody"><label class="save_boardPickerCreateSecretLabel">Geheim<input class="save_boardPickerCreateSecretInput" type="checkbox"><span class="save_toggle"><span class="save_knob"></span><span class="save_boardPickerCreateSecretNo save_optNo">Nein</span><span class="save_boardPickerCreateSecretYes save_optYes">Ja</span></span></label></span><span class="save_boardPickerCreateFoot"><span class="save_boardPickerCreateCancel save_button save_cancel" data-cmd="closeModeCreate">Abbrechen</span><span class="save_boardPickerCreateGo save_button save_save save_disabled" data-cmd="makeBoardOrSection">Erstellen</span></span></span></span><span class="save_boardPickerMask" data-cmd="close"></span><span class="save_infoContainer"><span class="save_interfaceHead"><span class="save_close" data-cmd="closeImagePicker"></span></span><span class="save_authHelp"><span class="save_authHelpHead">Psst!</span><span class="save_authHelpBody">Anscheinend bist du nicht bei Pinterest angemeldet. Das sollten wir ändern.</span><span class="save_authHelpFoot"><span class="save_signIn save_button save_majorAction" data-cmd="getAuthHelp">Anmelden</span></span></span></span><span class="save_searchContainer"><span class="save_interfaceHead"><span class="save_close" data-cmd="closeImagePicker"></span></span><span class="save_searchInside"><canvas class="save_searchSelect"></canvas></span><span class="save_searchResults"><span class="save_searchResultsGrid"></span></span></span></span></body></html>
